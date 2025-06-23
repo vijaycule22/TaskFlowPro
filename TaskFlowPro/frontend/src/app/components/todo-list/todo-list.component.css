@@ -1,0 +1,461 @@
+Custom Dialog Styles
+:host ::ng-deep .custom-add-dialog .p-dialog-header {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  color: white;
+  border: none;
+  border-radius: 0.75rem 0.75rem 0 0;
+  padding: 1.5rem;
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-header .p-dialog-title {
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-content {
+  padding: 1.5rem;
+}
+
+:host ::ng-deep .custom-edit-dialog .p-dialog-header {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+  color: white;
+  border: none;
+  border-radius: 0.75rem 0.75rem 0 0;
+  padding: 1.5rem;
+}
+
+:host ::ng-deep .custom-edit-dialog .p-dialog-header .p-dialog-title {
+  color: white;
+  font-weight: 600;
+  font-size: 1.125rem;
+}
+
+:host ::ng-deep .custom-edit-dialog .p-dialog-content {
+  padding: 1.5rem;
+}
+
+/* Enhanced button hover effects */
+:host ::ng-deep .p-checkbox .p-checkbox-box.p-highlight {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+  border-color: #2563eb;
+}
+
+/* Task card hover effects */
+.task-card {
+  transition: all 0.2s ease-in-out;
+}
+
+.task-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+/* Custom Styles for Confirmation Dialog */
+:host ::ng-deep .p-confirm-dialog {
+  .p-dialog-header {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+    color: white;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .p-dialog-title {
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+
+  .p-dialog-header-icon {
+    color: white !important;
+  }
+
+  .p-dialog-content {
+    padding: 1.5rem;
+    background-color: #f9fafb;
+  }
+
+  .p-confirm-dialog-icon {
+    font-size: 2rem;
+    color: #ef4444;
+  }
+
+  .p-confirm-dialog-message {
+    margin-left: 1rem;
+    font-size: 1rem;
+    color: #374151;
+  }
+
+  .p-dialog-footer {
+    padding: 1rem 1.5rem;
+    background-color: #f9fafb;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+  }
+
+  .p-button.p-button-danger {
+    background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%) !important;
+    border: none !important;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .p-button.p-button-danger:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.3);
+  }
+
+  .p-button.p-button-text {
+    color: #4b5563 !important;
+  }
+}
+
+/* Custom Styles for Add/Edit Dialogs */
+:host ::ng-deep .custom-add-dialog .p-dialog-header,
+:host ::ng-deep .custom-edit-dialog .p-dialog-header {
+  background: linear-gradient(135deg, #3b82f6 0%, #6366f1 100%);
+  color: white;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  padding: 1rem 1.5rem;
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-title,
+:host ::ng-deep .custom-edit-dialog .p-dialog-title {
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-header-icon,
+:host ::ng-deep .custom-edit-dialog .p-dialog-header-icon {
+  color: white !important;
+  transition: all 0.2s ease-in-out;
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-header-icon:hover,
+:host ::ng-deep .custom-edit-dialog .p-dialog-header-icon:hover {
+  transform: scale(1.1) rotate(90deg);
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-content,
+:host ::ng-deep .custom-edit-dialog .p-dialog-content {
+  padding: 1.5rem 2rem;
+  background-color: #f9fafb;
+}
+
+:host ::ng-deep .custom-add-dialog .p-dialog-footer,
+:host ::ng-deep .custom-edit-dialog .p-dialog-footer {
+  padding: 1rem 2rem;
+  background-color: #f9fafb;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+:host ::ng-deep .custom-add-dialog .p-button,
+:host ::ng-deep .custom-edit-dialog .p-button {
+  transition: all 0.2s ease-in-out;
+}
+
+:host ::ng-deep .custom-add-dialog .p-button:hover,
+:host ::ng-deep .custom-edit-dialog .p-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+:host ::ng-deep .custom-edit-dialog .p-button.p-button-success {
+  background: linear-gradient(135deg, #10b981 0%, #10b981 100%) !important;
+}
+
+:host ::ng-deep .custom-edit-dialog .p-inputtext:focus {
+  border-color: #10b981 !important;
+  box-shadow: 0 0 0 1px #10b981 !important;
+}
+
+:host ::ng-deep .p-error {
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Custom Dialog General Styles */
+:host ::ng-deep .p-dialog-header {
+  border-top-left-radius: 0.75rem !important;
+  border-top-right-radius: 0.75rem !important;
+  padding: 1.25rem 1.5rem !important;
+}
+
+:host ::ng-deep .p-dialog-footer {
+  border-bottom-left-radius: 0.75rem !important;
+  border-bottom-right-radius: 0.75rem !important;
+  padding: 1rem 1.5rem !important;
+}
+
+:host ::ng-deep .p-dialog .p-button {
+  transition: all 0.2s ease-in-out;
+}
+:host ::ng-deep .p-dialog .p-button:not(.p-button-text):hover {
+  transform: translateY(-2px);
+}
+
+/* Add Dialog */
+:host ::ng-deep .custom-add-dialog .p-dialog-header {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+}
+:host ::ng-deep .p-button.p-button-primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  border: none !important;
+}
+:host ::ng-deep .p-button.p-button-primary:hover {
+  box-shadow: 0 4px 20px rgba(37, 99, 235, 0.4);
+}
+:host ::ng-deep .custom-add-dialog .p-inputtext:focus {
+  border-color: #2563eb !important;
+  box-shadow: 0 0 0 1px #2563eb !important;
+}
+:host ::ng-deep .custom-add-dialog .p-inputtext:focus ~ i {
+  color: #2563eb !important;
+}
+
+/* Edit Dialog */
+:host ::ng-deep .custom-edit-dialog .p-dialog-header {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+}
+:host ::ng-deep .p-button.p-button-success {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%) !important;
+  border: none !important;
+}
+:host ::ng-deep .p-button.p-button-success:hover {
+  box-shadow: 0 4px 20px rgba(22, 163, 74, 0.4);
+}
+:host ::ng-deep .custom-edit-dialog .p-inputtext:focus {
+  border-color: #16a34a !important;
+  box-shadow: 0 0 0 1px #16a34a !important;
+}
+:host ::ng-deep .custom-edit-dialog .p-inputtext:focus ~ i {
+  color: #16a34a !important;
+}
+
+/* Delete Dialog */
+:host ::ng-deep .p-confirm-dialog .p-dialog-header {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%);
+}
+:host ::ng-deep .p-button.p-button-danger {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%) !important;
+  border: none !important;
+}
+:host ::ng-deep .p-button.p-button-danger:hover {
+  box-shadow: 0 4px 20px rgba(225, 29, 72, 0.4);
+}
+
+/* Input icon transitions */
+:host ::ng-deep .p-inputtext ~ i {
+  transition: color 0.2s ease-in-out;
+}
+
+/* Enhanced Input Fields (Glassy, Modern) */
+:host ::ng-deep .p-dialog .p-inputtext,
+:host ::ng-deep .p-dialog .p-inputtextarea {
+  background: rgba(255,255,255,0.85) !important;
+  border-radius: 0.75rem !important;
+  box-shadow: 0 2px 8px rgba(30, 64, 175, 0.04);
+  font-size: 1.05rem;
+  font-weight: 500;
+  padding-top: 0.75rem !important;
+  padding-bottom: 0.75rem !important;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+:host ::ng-deep .p-dialog .p-inputtext:focus,
+:host ::ng-deep .p-dialog .p-inputtextarea:focus {
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15), 0 2px 8px rgba(30, 64, 175, 0.08);
+  border-color: #2563eb !important;
+}
+:host ::ng-deep .custom-edit-dialog .p-inputtext:focus,
+:host ::ng-deep .custom-edit-dialog .p-inputtextarea:focus {
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.15), 0 2px 8px rgba(16, 185, 129, 0.08);
+  border-color: #16a34a !important;
+}
+
+/* Input icon enhancements */
+:host ::ng-deep .p-dialog .pi {
+  font-size: 1.15rem;
+  pointer-events: none;
+  z-index: 2;
+  transition: color 0.2s;
+}
+:host ::ng-deep .p-dialog .p-inputtext:focus ~ .pi,
+:host ::ng-deep .p-dialog .p-inputtextarea:focus ~ .pi {
+  color: #2563eb !important;
+}
+:host ::ng-deep .custom-edit-dialog .p-inputtext:focus ~ .pi,
+:host ::ng-deep .custom-edit-dialog .p-inputtextarea:focus ~ .pi {
+  color: #16a34a !important;
+}
+
+/* Enhanced Dialog Buttons */
+:host ::ng-deep .p-dialog .p-button,
+:host ::ng-deep .p-confirm-dialog .p-button {
+  font-size: 1.08rem;
+  font-weight: 600;
+  border-radius: 0.75rem !important;
+  padding: 0.85rem 2.2rem !important;
+  letter-spacing: 0.01em;
+  box-shadow: 0 2px 12px rgba(30, 64, 175, 0.08);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+:host ::ng-deep .p-dialog .p-button:not(.p-button-text):hover,
+:host ::ng-deep .p-confirm-dialog .p-button:not(.p-button-text):hover {
+  transform: translateY(-2px) scale(1.03);
+  box-shadow: 0 6px 24px rgba(30, 64, 175, 0.16);
+}
+
+/* Add Dialog Primary Button */
+:host ::ng-deep .p-button.p-button-primary {
+  background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) !important;
+  border: none !important;
+}
+:host ::ng-deep .p-button.p-button-primary:hover {
+  box-shadow: 0 6px 24px rgba(37, 99, 235, 0.25);
+}
+
+/* Edit Dialog Success Button */
+:host ::ng-deep .p-button.p-button-success {
+  background: linear-gradient(135deg, #16a34a 0%, #15803d 100%) !important;
+  border: none !important;
+}
+:host ::ng-deep .p-button.p-button-success:hover {
+  box-shadow: 0 6px 24px rgba(16, 185, 129, 0.25);
+}
+
+/* Delete Dialog Danger Button */
+:host ::ng-deep .p-button.p-button-danger {
+  background: linear-gradient(135deg, #e11d48 0%, #be123c 100%) !important;
+  border: none !important;
+  color: #fff !important;
+  font-weight: 700;
+}
+:host ::ng-deep .p-button.p-button-danger:hover {
+  box-shadow: 0 6px 24px rgba(225, 29, 72, 0.25);
+  background: linear-gradient(135deg, #be123c 0%, #e11d48 100%) !important;
+}
+
+/* Cancel/Text Buttons */
+:host ::ng-deep .p-button.p-button-text {
+  background: transparent !important;
+  color: #374151 !important;
+  font-weight: 600;
+  border: none !important;
+  box-shadow: none !important;
+  text-decoration: none;
+  padding: 0.85rem 1.5rem !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.75rem !important;
+  transition: color 0.18s, text-decoration 0.18s;
+}
+:host ::ng-deep .p-button.p-button-text:hover {
+  color: #2563eb !important;
+  text-decoration: underline;
+  background: rgba(37,99,235,0.06) !important;
+}
+
+/* Dialog Footer Button Alignment */
+:host ::ng-deep .p-dialog-footer, :host ::ng-deep .p-confirm-dialog .p-dialog-footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+/* Premium Button Enhancements */
+:host ::ng-deep .p-dialog .p-button,
+:host ::ng-deep .p-confirm-dialog .p-button {
+  position: relative;
+  border: 2px solid transparent;
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  outline: none !important;
+  box-shadow: 0 2px 12px rgba(30, 64, 175, 0.08);
+  transition: all 0.18s cubic-bezier(0.4,0,0.2,1);
+}
+:host ::ng-deep .p-dialog .p-button:focus,
+:host ::ng-deep .p-confirm-dialog .p-button:focus {
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.18), 0 2px 12px rgba(30, 64, 175, 0.12);
+  border-color: #2563eb;
+  z-index: 2;
+}
+:host ::ng-deep .custom-edit-dialog .p-button:focus {
+  box-shadow: 0 0 0 4px rgba(16, 185, 129, 0.18), 0 2px 12px rgba(16, 185, 129, 0.12);
+  border-color: #16a34a;
+}
+:host ::ng-deep .p-dialog .p-button:active,
+:host ::ng-deep .p-confirm-dialog .p-button:active {
+  transform: scale(0.97);
+  box-shadow: 0 1px 4px rgba(30, 64, 175, 0.10);
+}
+
+/* Gradient border for primary, success, and danger buttons */
+:host ::ng-deep .p-button.p-button-primary {
+  border-image: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%) 1;
+}
+:host ::ng-deep .p-button.p-button-success {
+  border-image: linear-gradient(135deg, #16a34a 0%, #15803d 100%) 1;
+}
+:host ::ng-deep .p-button.p-button-danger {
+  border-image: linear-gradient(135deg, #e11d48 0%, #be123c 100%) 1;
+}
+
+/* Delete Dialog Danger Button: Glowing, Prominent */
+:host ::ng-deep .p-confirm-dialog .p-button.p-button-danger {
+  box-shadow: 0 0 0 0 rgba(225, 29, 72, 0.0), 0 2px 12px rgba(225, 29, 72, 0.18);
+  transition: box-shadow 0.18s, transform 0.18s;
+}
+:host ::ng-deep .p-confirm-dialog .p-button.p-button-danger:hover {
+  box-shadow: 0 0 0 6px rgba(225, 29, 72, 0.12), 0 6px 32px rgba(225, 29, 72, 0.25);
+  transform: scale(1.045);
+}
+
+/* Cancel/Text Buttons: underline and color on hover */
+:host ::ng-deep .p-button.p-button-text {
+  border: none !important;
+  background: transparent !important;
+  color: #374151 !important;
+  font-weight: 600;
+  box-shadow: none !important;
+  text-decoration: none;
+  padding: 0.85rem 1.5rem !important;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 0.75rem !important;
+  transition: color 0.18s, text-decoration 0.18s;
+}
+:host ::ng-deep .p-button.p-button-text:hover {
+  color: #2563eb !important;
+  text-decoration: underline;
+  background: rgba(37,99,235,0.06) !important;
+}
+
+/* Enhanced Add Task Button in Dialog */
+:host ::ng-deep .enhanced-add-task-btn {
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+  padding: 1.1rem 2.7rem !important;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 24px rgba(37, 99, 235, 0.18), 0 2px 12px rgba(30, 64, 175, 0.10);
+  position: relative;
+  overflow: hidden;
+}
+:host ::ng-deep .enhanced-add-task-btn .pi {
+  font-size: 1.45rem !important;
+  margin-right: 0.7rem !important;
+  transition: transform 0.18s cubic-bezier(0.4,0,0.2,1), color 0.18s;
+}
+:host ::ng-deep .enhanced-add-task-btn:hover .pi {
+  transform: scale(1.18) rotate(12deg);
+  color: #fff700 !important;
+}
+:host ::ng-deep .enhanced-add-task-btn:focus {
+  box-shadow: 0 0 0 6px rgba(59, 130, 246, 0.22), 0 4px 24px rgba(37, 99, 235, 0.18);
+}
+:host ::ng-deep .enhanced-add-task-btn:active {
+  transform: scale(0.98);
+}

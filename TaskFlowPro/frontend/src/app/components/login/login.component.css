@@ -1,0 +1,27 @@
+/* Ensure PrimeNG icons are always visible in input fields */
+:host ::ng-deep .relative .pi {
+  position: absolute !important;
+  left: 0.75rem !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  pointer-events: none !important;
+  z-index: 20 !important;
+  color: #9ca3af !important;
+  font-size: 1.25rem !important;
+  display: block !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Ensure input padding for icons */
+:host ::ng-deep .relative input {
+  padding-left: 2.5rem !important;
+}
+
+/* Ensure icons stay visible on focus */
+:host ::ng-deep .relative input:focus + .pi,
+:host ::ng-deep .relative input:focus ~ .pi {
+  color: #3b82f6 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+} 
